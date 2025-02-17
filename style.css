@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F1F1F;
+    padding: 10px 30px;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #F1C40F;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #1F1F1F;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #F1C40F;
+    padding: 15px 35px;
+    font-size: 18px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #E67E22;
+}
+
+.music-library {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1F1F1F;
+}
+
+.music-library h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.album-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.album-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.album-card h3 {
+    font-size: 18px;
+    color: #F1C40F;
+}
+
+.discover-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1F1F1F;
+}
+
+.discover-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.discover-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.discover-card {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.discover-card h3 {
+    font-size: 24px;
+    color: #F1C40F;
+    margin-bottom: 10px;
+}
+
+.discover-card p {
+    color: #bbb;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #1F1F1F;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+footer p {
+    color: #bbb;
+  }
